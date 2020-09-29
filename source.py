@@ -3,7 +3,7 @@ import PySimpleGUI as sg
 from kasa import SmartPlug
 
 sg.theme("DarkTeal9")
-p = SmartPlug("192.168.0.10") # hard coded for the testing
+p = SmartPlug("") # hard coded for the testing
 
 async def status(): #gets the inital status of light swtich on start
 
